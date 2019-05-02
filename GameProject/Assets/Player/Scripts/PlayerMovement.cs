@@ -131,7 +131,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void Start()
     {
-        // Important that well call SetupComponents before Variables.
+        // Important that well call SetupComponents before Variables,
+        // might move functions to Awake.
         SetupComponents();
         SetupVariables();
 
